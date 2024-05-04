@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+
+# data ingestion is all about downloading the data from source, here the source is github
+# local_data_file is the location of the downloaded data
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/rohitspatil30/diabetes_classification_project/raw/master/datasets/diabetes_dataset.zip
+  local_data_file: artifacts/data_ingestion/diabetes_dataset.zip
+  unzip_dir: artifacts/data_ingestion
+
+# data validation is all about validating the data
+# local_data_file is the location of the downloaded data
+
