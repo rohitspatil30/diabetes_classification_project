@@ -3,3 +3,651 @@
 [2024-05-04 17:11:00,002: INFO: common: yaml file: schema.yaml loaded successfully]
 [2024-05-04 17:11:00,002: INFO: common: created directory at: artifacts]
 [2024-05-04 17:11:00,007: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 17:29:06,836: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 17:29:06,885: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 17:29:06,900: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 17:29:06,900: INFO: common: created directory at: artifacts]
+[2024-05-04 17:29:06,900: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 17:29:10,131: INFO: 1268487314: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8D54:250FB7:989D7:D4EB0:6636230D
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 11:59:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4723-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714823950.661847,VS0,VE301
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93a8ceff83b856cdb451fb9766f8506fd713b9df
+Expires: Sat, 04 May 2024 12:04:09 GMT
+Source-Age: 0
+
+]
+[2024-05-04 19:10:07,219: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 19:10:07,219: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 19:10:07,229: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 19:10:07,233: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 19:10:07,234: INFO: common: created directory at: artifacts]
+[2024-05-04 19:10:07,236: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 19:10:08,642: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 13:40:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4734-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714830008.969496,VS0,VE404
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 96e9d2da2822cc968b211e01ce19e4d31dd1e900
+Expires: Sat, 04 May 2024 13:45:08 GMT
+Source-Age: 0
+
+]
+[2024-05-04 19:10:08,650: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:16:20,390: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:16:20,390: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:16:20,400: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:16:20,407: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:16:20,409: INFO: common: created directory at: artifacts]
+[2024-05-04 20:16:20,411: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:16:21,987: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:46:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4730-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1714833981.433893,VS0,VE239
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0b485a95c9b0e7d37701fc3d3736267fba737f53
+Expires: Sat, 04 May 2024 14:51:21 GMT
+Source-Age: 0
+
+]
+[2024-05-04 20:16:22,004: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:16:58,448: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:16:58,464: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:16:58,468: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:16:58,475: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:16:58,483: INFO: common: created directory at: artifacts]
+[2024-05-04 20:16:58,485: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:16:59,641: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:46:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4730-BOM
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Timer: S1714834019.340240,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 35c58186d086698b4f3854883e49af38536e3d83
+Expires: Sat, 04 May 2024 14:51:59 GMT
+Source-Age: 38
+
+]
+[2024-05-04 20:16:59,663: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:16:59,663: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:16:59,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:16:59,672: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:16:59,672: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:16:59,676: INFO: common: created directory at: artifacts]
+[2024-05-04 20:16:59,676: ERROR: main: "'ConfigBox' object has no attribute 'data_validation'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'data_validation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'data_validation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\languages\python\MLOps\diabetes_classification_project\main.py", line 24, in <module>
+    data_ingestion.main()
+  File "d:\languages\python\mlops\diabetes_classification_project\src\diabetes_classification_project\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "d:\languages\python\mlops\diabetes_classification_project\src\diabetes_classification_project\config\configuration.py", line 38, in get_data_validation_config
+    config = self.config.data_validation
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'data_validation'"
+[2024-05-04 20:23:05,081: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:23:05,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:23:05,100: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:23:05,105: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:23:05,108: INFO: common: created directory at: artifacts]
+[2024-05-04 20:23:05,108: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:23:05,111: INFO: data_ingestion: File already exists of size: ~ 9 KB]
+[2024-05-04 20:23:05,118: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:23:05,119: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:23:05,130: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:23:05,132: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:23:05,136: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:23:05,136: INFO: common: created directory at: artifacts]
+[2024-05-04 20:23:05,142: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:23:05,148: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/diabetes_dataset.csv']
+Traceback (most recent call last):
+  File "D:\languages\python\MLOps\diabetes_classification_project\main.py", line 24, in <module>
+    data_ingestion.main()
+  File "d:\languages\python\mlops\diabetes_classification_project\src\diabetes_classification_project\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation.validate_all_columns()
+  File "d:\languages\python\mlops\diabetes_classification_project\src\diabetes_classification_project\components\data_validation.py", line 34, in validate_all_columns
+    raise e
+  File "d:\languages\python\mlops\diabetes_classification_project\src\diabetes_classification_project\components\data_validation.py", line 15, in validate_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+  File "d:\languages\python\MLOps\diabetes_classification_project\env\lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "d:\languages\python\MLOps\diabetes_classification_project\env\lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "d:\languages\python\MLOps\diabetes_classification_project\env\lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "d:\languages\python\MLOps\diabetes_classification_project\env\lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "d:\languages\python\MLOps\diabetes_classification_project\env\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/diabetes_dataset.csv'
+[2024-05-04 20:23:45,232: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:23:45,235: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:23:45,247: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:23:45,255: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:23:45,258: INFO: common: created directory at: artifacts]
+[2024-05-04 20:23:45,259: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:23:46,919: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:53:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4721-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714834426.266772,VS0,VE293
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 983cbf0e8af78d6e473aa34c8e8cdbed68ed24ef
+Expires: Sat, 04 May 2024 14:58:46 GMT
+Source-Age: 0
+
+]
+[2024-05-04 20:23:46,929: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:23:46,931: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:23:46,941: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:23:46,941: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:23:46,953: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:23:46,953: INFO: common: created directory at: artifacts]
+[2024-05-04 20:23:46,960: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:23:46,991: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:25:05,226: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:25:05,236: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:25:05,239: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:25:05,244: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:25:05,247: INFO: common: created directory at: artifacts]
+[2024-05-04 20:25:05,249: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:25:06,402: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:55:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4741-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714834506.085823,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b40176f84ad154716cfad4016a9a75851e43c6d1
+Expires: Sat, 04 May 2024 15:00:06 GMT
+Source-Age: 80
+
+]
+[2024-05-04 20:25:06,412: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:25:06,413: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:25:06,424: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:25:06,428: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:25:06,431: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:25:06,436: INFO: common: created directory at: artifacts]
+[2024-05-04 20:25:06,436: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:25:06,446: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:25:26,561: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:25:26,568: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:25:26,568: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:25:26,580: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:25:26,587: INFO: common: created directory at: artifacts]
+[2024-05-04 20:25:26,587: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:25:27,705: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:55:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4738-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1714834527.387433,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3880484e5f266c54397c2be2612e7f7ca1945505
+Expires: Sat, 04 May 2024 15:00:27 GMT
+Source-Age: 101
+
+]
+[2024-05-04 20:25:27,719: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:25:27,719: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:25:27,734: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:25:27,737: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:25:27,744: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:25:27,746: INFO: common: created directory at: artifacts]
+[2024-05-04 20:25:27,748: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:25:27,765: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:04,516: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:26:04,527: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:04,527: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:04,534: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:04,535: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:04,537: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:26:05,903: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:56:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4740-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1714834566.578688,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 893841fb741777ab84c2376dbda3d1c1d7a02656
+Expires: Sat, 04 May 2024 15:01:05 GMT
+Source-Age: 139
+
+]
+[2024-05-04 20:26:05,912: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:05,913: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:26:05,926: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:05,929: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:05,934: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:05,935: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:05,937: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:26:05,955: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:05,957: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-04 20:26:05,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:05,972: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:05,978: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:05,978: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:05,978: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-04 20:26:06,024: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-04 20:26:06,024: INFO: data_transformation: (576, 9)]
+[2024-05-04 20:26:06,025: INFO: data_transformation: (192, 9)]
+[2024-05-04 20:26:06,027: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:52,682: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 20:26:52,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:52,687: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:52,698: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:52,698: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:52,698: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 20:26:53,819: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 14:56:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4732-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1714834614.503540,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cca547e287a0f28c909dda4d702bedd84dd9d387
+Expires: Sat, 04 May 2024 15:01:53 GMT
+Source-Age: 187
+
+]
+[2024-05-04 20:26:53,830: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:53,833: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 20:26:53,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:53,849: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:53,855: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:53,856: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:53,856: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 20:26:53,864: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:53,864: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-04 20:26:53,879: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:53,884: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:53,887: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:53,891: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:53,892: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-04 20:26:53,909: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-04 20:26:53,909: INFO: data_transformation: (576, 9)]
+[2024-05-04 20:26:53,909: INFO: data_transformation: (192, 9)]
+[2024-05-04 20:26:53,921: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 20:26:53,921: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-04 20:26:53,940: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 20:26:53,940: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 20:26:53,952: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 20:26:53,964: INFO: common: created directory at: artifacts]
+[2024-05-04 20:26:53,967: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-04 20:26:54,651: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-04 21:16:23,742: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-04 21:16:23,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 21:16:23,754: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 21:16:23,757: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 21:16:23,759: INFO: common: created directory at: artifacts]
+[2024-05-04 21:16:23,761: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-04 21:16:25,826: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9A74:1D04D6:4C44BD:5D6809:66363AB7
+Accept-Ranges: bytes
+Date: Sat, 04 May 2024 15:46:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4746-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714837585.075472,VS0,VE313
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 04bc7b764485d5f65a08ed694a6bef3d411d6d5c
+Expires: Sat, 04 May 2024 15:51:25 GMT
+Source-Age: 0
+
+]
+[2024-05-04 21:16:25,834: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-04 21:16:25,835: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-04 21:16:25,847: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 21:16:25,849: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 21:16:25,854: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 21:16:25,862: INFO: common: created directory at: artifacts]
+[2024-05-04 21:16:25,863: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-04 21:16:25,879: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 21:16:25,879: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-04 21:16:25,894: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 21:16:25,896: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 21:16:25,906: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 21:16:25,910: INFO: common: created directory at: artifacts]
+[2024-05-04 21:16:25,911: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-04 21:16:25,937: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-04 21:16:25,937: INFO: data_transformation: (576, 9)]
+[2024-05-04 21:16:25,938: INFO: data_transformation: (192, 9)]
+[2024-05-04 21:16:25,940: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-04 21:16:25,941: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-04 21:16:25,952: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 21:16:25,954: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 21:16:25,960: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 21:16:25,962: INFO: common: created directory at: artifacts]
+[2024-05-04 21:16:25,964: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-04 21:16:26,648: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-04 21:16:26,649: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-05-04 21:16:26,658: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-04 21:16:26,660: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-04 21:16:26,664: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-04 21:16:26,666: INFO: common: created directory at: artifacts]
+[2024-05-04 21:16:26,668: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-04 21:16:26,828: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-05-04 21:16:26,830: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-05 11:49:24,607: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-05 11:49:24,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:24,628: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-05 11:49:24,631: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-05 11:49:24,637: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:24,637: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-05 11:49:26,769: INFO: data_ingestion: artifacts/data_ingestion/diabetes_dataset.zip download! with following info: 
+Connection: close
+Content-Length: 9128
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "56f901e3922e443b1062af733008c034b43501e3e89eedab5f91e272569e8f63"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2AF0:18A147:52C205:655930:663724EF
+Accept-Ranges: bytes
+Date: Sun, 05 May 2024 06:19:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4741-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714889968.580105,VS0,VE317
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e6b1105f6d44a896f2c8ea6e9bbb22b1ad506f17
+Expires: Sun, 05 May 2024 06:24:27 GMT
+Source-Age: 0
+
+]
+[2024-05-05 11:49:26,785: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-05 11:49:26,785: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-05 11:49:26,803: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:26,803: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-05 11:49:26,809: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-05 11:49:26,816: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:26,818: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-05 11:49:26,853: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-05 11:49:26,853: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-05 11:49:26,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:26,872: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-05 11:49:26,872: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-05 11:49:26,872: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:26,880: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-05 11:49:26,921: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-05 11:49:26,921: INFO: data_transformation: (576, 9)]
+[2024-05-05 11:49:26,921: INFO: data_transformation: (192, 9)]
+[2024-05-05 11:49:26,928: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-05 11:49:26,928: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-05-05 11:49:26,944: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:26,947: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-05 11:49:26,960: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-05 11:49:26,964: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:26,964: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-05 11:49:27,748: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-05-05 11:49:27,748: INFO: main: >>>>>> stage Model evaluation stage started <<<<<<]
+[2024-05-05 11:49:27,759: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-05 11:49:27,765: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-05-05 11:49:27,769: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-05 11:49:27,772: INFO: common: created directory at: artifacts]
+[2024-05-05 11:49:27,774: INFO: common: created directory at: artifacts/model_evaluation]
+[2024-05-05 11:49:28,184: INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-05-05 11:49:28,184: INFO: main: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
