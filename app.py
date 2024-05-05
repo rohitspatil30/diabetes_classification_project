@@ -27,24 +27,22 @@ def index():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
-            fixed_acidity =float(request.form['fixed_acidity'])
-            volatile_acidity =float(request.form['volatile_acidity'])
-            citric_acid =float(request.form['citric_acid'])
-            residual_sugar =float(request.form['residual_sugar'])
-            chlorides =float(request.form['chlorides'])
-            free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
-            total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
-            density =float(request.form['density'])
-            pH =float(request.form['pH'])
-            sulphates =float(request.form['sulphates'])
-            alcohol =float(request.form['alcohol'])
-       
+            pregnancies=float(request.form['pregnancies'])
+            glucose =float(request.form['glucose'])
+            blood_pressure =float(request.form['blood_pressure'])
+            skin_thickness =float(request.form['skin_thickness'])
+            insulin =float(request.form['insulin'])
+            bmi =float(request.form['bmi'])
+            diabetes_pedigree_function =float(request.form['diabetes_pedigree_function'])
+            age =float(request.form['age'])
+                 
          
-            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
-            data = np.array(data).reshape(1, 11)
+            data = [pregnancies,glucose,blood_pressure,skin_thickness,insulin,bmi,diabetes_pedigree_function,age]
+            data = np.array(data).reshape(1, 8)
             
             obj = PredictionPipeline()
             predict = obj.predict(data)
+            print(predict)
 
             return render_template('results.html', prediction = str(predict))
 
